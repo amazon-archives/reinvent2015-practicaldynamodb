@@ -1,0 +1,9 @@
+AWS re:Invent 2015 - Practical DynamoDB Sample Code
+Copyright 2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+It includes code from a third party,
+Google Guava (https://code.google.com/p/guava-libraries/)
+which is also under Apache License 2.0.

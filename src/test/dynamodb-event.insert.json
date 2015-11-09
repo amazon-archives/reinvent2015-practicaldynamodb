@@ -1,0 +1,38 @@
+{
+	"Records":[
+	 {
+		 "eventID":"1",
+ 		 "eventName":"INSERT",
+		 "eventVersion":"1.0",
+		 "eventSource":"aws:dynamodb",
+ 	 	 "eventSourceARN":"stream-ARN",
+		 "awsRegion":"us-east-1",
+		 "dynamodb":{
+			 "Keys":{
+				 "scoreId":{
+					 "S":"test-score-1"
+				 }
+		 	 },
+		 	"NewImage":{
+				 "scoreId":{
+					 "S":"test-score-1"
+				 },
+		 		 "playerName":{
+			 		 "S":"Jeff B"
+			 	 },
+		 		 "date":{
+			 		 "S":"2015/02/16"
+				 },
+		 		 "score":{
+			 		 "N":"321"
+				 },
+		 		 "gameLength":{
+			 		 "N":"123456"
+				 }
+			 },
+			 "SequenceNumber":"111",
+			 "SizeBytes":26,
+			 "StreamViewType":"NEW_AND_OLD_IMAGES"
+		 }
+ 	 }]
+}
