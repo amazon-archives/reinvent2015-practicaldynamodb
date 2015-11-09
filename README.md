@@ -1,10 +1,11 @@
-## This project is used for demonstrating how Amazon DynamoDB could be used together with AWS Lambda to perform real-time and batch analysis of domain specific data. Real-time analysis is done using DynamDB streams as an event source of a Lambda function. Batch processing utilizes the parallel scan Action of DynamoDB to distribute work to Lambda. Although this is a Maven project, AWS Lambda functions cannot be deployed by Maven. It is expected to use Eclipse to deploy the AWS Lambda functions and run the sample code.
+#### Introduction
+This project is used for demonstrating how Amazon DynamoDB could be used together with AWS Lambda to perform real-time and batch analysis of domain specific data. Real-time analysis is done using DynamDB streams as an event source of a Lambda function. Batch processing utilizes the parallel scan Action of DynamoDB to distribute work to Lambda. Although this is a Maven project, AWS Lambda functions cannot be deployed by Maven. It is expected to use Eclipse to deploy the AWS Lambda functions and run the sample code.
 
 #### Prerequisite
 * [Install Eclipse to your computer](https://wiki.eclipse.org/Eclipse/Installation)
 * [Install AWS Toolkit for Eclipse](https://aws.amazon.com/eclipse/)
 * [Install Eclipse Maven plugin](http://www.eclipse.org/m2e/)
-* Use git clone https://github.com/awslabs/reinvent2015-practicaldynamodb.git to download this folder to your local computer, import to your Eclipse IDE environment as a Maven project.
+* Use `git clone https://github.com/awslabs/reinvent2015-practicaldynamodb.git .` to download this folder to your local computer, import to your Eclipse IDE environment as a Maven project.
 
 #### STEP 1 - Prepare demo resources
 * Setup Credentials
@@ -34,4 +35,4 @@
 * Run the parallelscan.FunctionInvoker class.
 * After it finishes, check HighScoresByDate table.
 
-For more information, refer to [reInvent 2015](https://www.youtube.com/watch?v=XByPxb_VvpY)
+For more information, refer to [reInvent 2015 demo video](https://www.youtube.com/watch?v=XByPxb_VvpY) on Youtube.
