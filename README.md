@@ -9,7 +9,7 @@ This project is used for demonstrating how Amazon DynamoDB could be used togethe
 
 #### STEP 1 - Prepare demo resources
 * Setup Credentials
-  * Inside the datasetinit package, change Constants.LOCAL_CRED_PROFILE_NAME to the desired profile name. [Providing AWS Credentials in the AWS SDK for Java](http://docs.aws.amazon.com/AWSSdkDocsJava/latest/DeveloperGuide/credentials.html)
+  * Inside the datasetinit package, change Constants.LOCAL_CRED_PROFILE_NAME to the desired profile name. For more information, go to [Providing AWS Credentials in the AWS SDK for Java](http://docs.aws.amazon.com/AWSSdkDocsJava/latest/DeveloperGuide/credentials.html)
 * Create DynamoDB tables
   * In datasetinit package, run the CreateFunctionTrackerTable, CreateHighScoresByDateTable, CreatePlayerStatsTable and CreateScoresTable classes.
 * Create a DynamoDB Streams sourced Lambda function
